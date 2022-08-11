@@ -39,6 +39,9 @@
     "vite": "^3.0.0"
   },
   "lint-staged": {
-    "src/**": "eslint"
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "prettier --config .prettierrc --write",
+      "eslint --quiet --fix"
+    ]
   }
 }
