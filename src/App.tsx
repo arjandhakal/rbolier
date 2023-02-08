@@ -1,7 +1,8 @@
 import { useState } from 'react';
+import addTwoNumbers from '@utils/example';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(() => addTwoNumbers(0, 0));
   return (
     <div className="flex h-screen m-auto">
       <div className="m-auto">

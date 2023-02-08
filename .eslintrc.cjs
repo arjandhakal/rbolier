@@ -3,6 +3,17 @@ module.exports = {
     browser: true,
     es2021: true
   },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@', './src'],
+          ['@utils', './src/utils']
+        ],
+        extensions: ['.ts', '.js', '.jsx', '.json', '.tsx']
+      }
+    }
+  },
   extends: [
     'plugin:react/recommended',
     'airbnb',

@@ -18,6 +18,8 @@ Simple starter pack for react based projects. It uses the following tools:
 
 > pnpm : just because
 
+> alias through changing config in vite.config.ts , tsconfig.json
+
 ## Getting Started
 
 To install the packages
