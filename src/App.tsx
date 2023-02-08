@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="flex h-screen m-auto">
       <div className="m-auto">
+        <h2>Counter</h2>
         <div className="text-6xl text-red-600">{count}</div>
         <button
           type="button"
