@@ -12,16 +12,40 @@ Simple starter pack for react based projects. It uses the following tools:
 
 > tailwind : for quick styling
 
+> vitest : for unit test
+
+> playwright : for end to end testing
+
+> pnpm : just because
+
 ## Getting Started
+
+To install the packages
+
+```
+pnpm install
+```
 
 To start the development mode:
 
 ```
-npm run dev
+pnpm dev
 ```
 
 To build the project
 
 ```
-npm run build
+pnpm build
+```
+
+To run unit test
+
+```
+pnpm test
+```
+
+To run end to end test
+
+```
+pnpm e2e:test
 ```
